@@ -1,0 +1,12 @@
+{
+    "destinations" : [
+          {
+            "name" : "env_destination_saphome",
+            "url" : "https://sapui5.netweaver.ondemand.com"
+          },
+          {
+            "name" : "northwind",
+            "url" : "https://services.odata.org/Experimental/OData/OData.svc/"
+          }
+    ]  
+}

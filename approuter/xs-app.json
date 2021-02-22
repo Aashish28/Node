@@ -1,0 +1,15 @@
+{
+    "welcomeFile": "appindex.html", 
+    "authenticationMethod": "none",
+    "routes": [
+      {
+        "source": "^/saproute/(.*)$",
+        "target": "$1",
+        "destination": "env_destination_saphome"
+      },{
+        "source": "/Experimental/OData/OData.svc/(.*)$",
+        "target": "$1",
+        "destination": "northwind"       
+      }
+    ]
+}
